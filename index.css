@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f0e9;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.global {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 500px;
+  height: 550px;
+}
+
+#screen {
+  width: 97.5%;
+  height: 90px;
+  background-color: rgb(226, 226, 135);
+  justify-content: center;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+.container {
+  border: 5px solid tomato;
+  margin: 5px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 5px coral;
+}
+#screenNumbers {
+  font-size: 2.5rem;
+  align-items: center;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.container div {
+  margin: 5px;
+}
+
+.first,
+.second,
+.thirt,
+.final {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.buttons {
+  width: calc(85%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 8vh;
+}
+.buttons div {
+  width: 30%;
+  font-size: 2.4rem;
+  background-color: rgb(174, 196, 189);
+  border: 1px solid black;
+}
+
+.operator {
+  width: 10%;
+  text-align: center;
+  font-size: 2.4rem;
+  background-color: cadetblue;
+  border: 1px solid black;
+}
+
+.equal {
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+#reset {
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  border-radius: 50px;
+}
+
+
